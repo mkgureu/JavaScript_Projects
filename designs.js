@@ -1,6 +1,6 @@
 /*function makeGrid creates the grid of squares on the page */
 function makeGrid() {
-    // Clearing the grid squares that are already there
+    // Clearing the grid squares :https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML
     pixelCanvas.innerHTML = '';
   
     // this is for the width and height of the grid 
